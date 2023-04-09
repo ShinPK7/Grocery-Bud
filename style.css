@@ -1,0 +1,81 @@
+.edit-btn, .delete-btn {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin: 0 0.15rem;
+}
+ 
+.edit-btn {
+ color:hsl(125,71%,66%) ;
+}
+
+.edit-btn:hover {
+  color: hsl(125, 67%, 44%)
+}
+
+.delete-btn {
+    color: hsl(369, 71%, 66%);
+}
+
+.delete-btn {
+    color: hsl(360, 67%, 44%);
+}
+
+.clear-btn {
+    text-transform: capitalize;
+    width: 10rem;
+    height:1.5rem;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color:  hsl(369, 71%, 66%);
+    font-size: 0.85rem;
+    display: grid;
+    margin: 0 auto;
+    letter-spacing: 0.25rem;
+    margin-top: 1.25em;
+}
+
+.grocery-item {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+}
+
+.grocery-item:hover {
+    color: hsl(210, 22%, 49%);
+    background-color: hsl(210, 36%, 96%);
+}
+
+.title {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-top: 8rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 2rem;
+    transition: all 0.3s linear;
+}
+
+.section-center:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.grocery-form h3 {
+    text-align: center;
+    text-transform: capitalize;
+    color: hsl(205,85%,17%);
+    margin: bottom 1.5rem;
+}
