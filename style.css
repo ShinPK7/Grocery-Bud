@@ -79,3 +79,70 @@
     color: hsl(205,85%,17%);
     margin: bottom 1.5rem;
 }
+
+
+.form-control {
+    display: flex;
+    justify-content: center;
+}
+
+#grocery {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background-color: hsl(210, 36%, 96%);
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-color: transparent;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    color: hsl(210, 22%, 49%);
+}
+
+#grocery ::placeholder {
+color: hsl(210, 22%, 49%);
+}
+
+.submit-btn {
+    background-color: hsl(205,86%, 81%);
+    border-color: transparent;
+    flex: 0 0 5rem;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+transition: all .5s linear;
+}
+
+.submit-btn:hover {
+    background-color: hsl(205, 63%, 48%);
+    color: white;
+}
+
+.grocery-container {
+    margin-top: 2rem;
+    
+}
+.alert {
+    margin-bottom: 1rem;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+}
